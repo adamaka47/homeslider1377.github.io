@@ -1,0 +1,94 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400;
+	color: #000000;
+	background-color: #424242;
+
+	background:
+	linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+	linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+	linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+	linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+	linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+	linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+	linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+	linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+	linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+	linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+	linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+	linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+	background-color: #232927;
+	background-size: 100px 100px;
+
+	
+/*	background: #B0D09C;
+	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
+	background: -moz-linear-gradient(top left, #B0D09C, #4B8244);
+	background: linear-gradient(top left, #B0D09C, #4B8244);*/
+	
+/*	background: #B5DBDC;
+	background: -webkit-linear-gradient(top left, #B5DBDC, #A8C6D4);
+	background: -moz-linear-gradient(top left, #B5DBDC, #A8C6D4);
+	background: linear-gradient(top left, #B5DBDC, #A8C6D4);*/
+	
+/*	background: #DFA2B9;
+	background: -webkit-linear-gradient(top left, #DFA2B9, #EBC48D);
+	background: -moz-linear-gradient(top left, #DFA2B9, #EBC48D);
+	background: linear-gradient(top left, #DFA2B9, #EBC48D);*/
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.name {
+	font-size: 58px;
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.5;
+	font-family: 'Oranienbaum', cursive;
+	color: #458255;
+	fw
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1.5;
+	color: #3a7;
+}
+
+.hidden {
+	display: none;
+}
+
+.copyright {
+	opacity: .5;
+} 
+
+.copyright p {
+	font-size: 18px;
+	color: #FFF;
+}
+
+.copyright a {
+	color: #FFF;
+	text-decoration: underline;
+}
